@@ -70,7 +70,8 @@ width: 300px;
 
 .mastcolumn {
   display: flex;
- justify-content: space-around;
+margin: 0 auto 78px auto;
+ justify-content: space-between;
  margin-left: 0px;
  margin-right: 0px;
 padding-bottom: 0px;
@@ -83,4 +84,13 @@ align-items: stretch;
 
 p {
    border: 1px solid black;
+}
+
+html {
+  display: block;
+  justify-content: space-between;
+}
+
+body{
+  display: block;
 }
