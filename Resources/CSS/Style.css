@@ -2,6 +2,7 @@
 * {
 
 margin: 0;
+
 }
 
 header{
@@ -78,6 +79,7 @@ padding-bottom: 0px;
  padding-top: 116px;
  border: 1px solid black;
 align-items: stretch;
+
 }
 
 
@@ -89,8 +91,45 @@ p {
 html {
   display: block;
   justify-content: space-between;
+
 }
 
 body{
   display: block;
+    overflow: scroll;
+
+}
+
+.steakpic {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  display: flex;
+  height: 300px;
+
+}
+
+.earthpic {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  display: : flex;
+  height: 300px;
+
+}
+
+.camera {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  display: flex;
+  height: 300px;
+
+}
+
+.cat {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  display: flex;
+  height: 250px;
+
+}
+.cat, .camera, .earthpic, .steakpic {
+  font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
 }
