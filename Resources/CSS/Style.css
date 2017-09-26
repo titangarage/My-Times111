@@ -1,0 +1,26 @@
+
+.headerfull {
+  display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+  }
+
+.headerlogo {
+  display: block;
+padding: 10px 10px;
+align-items: center;
+
+}
+
+span {
+padding: 10px;
+}
+
+.headerlogo span {
+color: MediumAquamarine;
+padding: :20px;
+}
