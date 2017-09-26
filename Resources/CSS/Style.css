@@ -1,4 +1,16 @@
 
+* {
+
+margin: 0;
+}
+
+header{
+display:flex;
+align-items: center;
+}
+
+
+
 .headerfull {
   display: flex;
     justify-content: space-between;
@@ -7,12 +19,15 @@
     font-size: 14px;
     font-weight: bold;
     align-items: center;
+    position: fixed;
+    background: white;
+    width: 100%;
   }
 
 .headerlogo {
-  display: flex;
-  align-items: center;
-  display: block;
+display: flex;
+align-items: center;
+display: block;
 padding: 10px 10px;
 align-items: center;
 
@@ -25,4 +40,47 @@ padding: 10px;
 .headerlogo span {
 color: MediumAquamarine;
 padding: :20px;
+}
+
+.column1 {
+
+padding-top: 80px;
+display: flex;
+flex-direction: column;
+width: 630px;
+ border: 1px solid black;
+}
+
+.column2 {
+
+padding-top: 80px;
+display: flex;
+flex-direction: column;
+width: 300px;
+ border: 1px solid black;
+}
+
+.column3 {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+   border: 1px solid black;
+}
+
+.mastcolumn {
+  display: flex;
+ justify-content: space-around;
+ margin-left: 0px;
+ margin-right: 0px;
+padding-bottom: 0px;
+ padding-top: 116px;
+ border: 1px solid black;
+align-items: stretch;
+}
+
+
+
+p {
+   border: 1px solid black;
 }
